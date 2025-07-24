@@ -2,6 +2,10 @@
 data/processed/*
 data/raw/*
 
+# But, don't ignore .gitkeep!
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
