@@ -49,8 +49,8 @@ In simple terms:
 
 ### 2. Elbow and Silhouette Score
 
-![Elbow Method](outputs/plots/elbow_method.png)
-![Silhouette Score](outputs/plots/silhouette_score.png)
+![Elbow Method](outputs/plots/elbow_method_vs_kinertia.png)
+![Silhouette Score](outputs/plots/silhouette_score_vs_k.png)
 
 *These plots show how the optimal number of clusters (`k=3`) was determined, balancing the inertia (Elbow Method) and Silhouette score to ensure meaningful groupings.
 
@@ -121,7 +121,7 @@ You can execute the scrapping many times as you need to increase the number of p
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/tu_usuario/fc25-player-scouting.git
+git clone https://github.com/humbertohp-aidev/fc25-player-scouting.git
 cd fc25-player-scouting
 ````
 
