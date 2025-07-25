@@ -1,4 +1,4 @@
-# FIFA25 Player Scouting with Clustering
+# FC25 Player Scouting with Clustering
 
 ## 🏟️ What is this project?
 
