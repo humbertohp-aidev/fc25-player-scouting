@@ -7,24 +7,16 @@ This project uses **FC25 player skill data** to **group players into similar pla
 In simple terms:
 
 * A large dataset of player data (passing skills, shooting, ball control, etc.) is analyzed.
-**clustering** is used to identify **player types**.
+**Clustering** is used to identify **player types**.
 * This allows coaches, analysts or fans to understand which players have similar playing styles.
-
----
-
-## ⚡ Why is it useful?
-
-* **Facilitates scouting** of players with specific skills.
-* Allows you to **visualize player profiles** in a clear way.
-* Can serve as a basis for **performance prediction projects or advanced comparisons** in soccer.
 
 ---
 
 ## 🛠️ Technologies used
 
 * **Python** (pandas, scikit-learn, matplotlib, seaborn)
-** **Machine Learning (KMeans clustering, PCA)** ** **Jupyter Notebooks
-* ** **Jupyter Notebooks** for step-by-step analysis.
+* **Machine Learning (KMeans clustering, PCA)**
+* **Jupyter Notebooks** for step-by-step analysis.
 
 ---
 
@@ -43,6 +35,32 @@ In simple terms:
 4. **Analysis of results:** * Interpretation of clusters to identify styles.
 
    * Interpretation of the clusters to identify players' styles.
+
+---
+## 📊 Key visualizations of the project.
+
+### Distribution of Clusters with PCA
+
+![PCA visualization of Clusters](outputs/plots/PCA.png).
+
+*2D visualization of the clusters generated after applying PCA, showing the separation between player profiles according to their skills.
+
+---
+
+### 2. Elbow and Silhouette Score
+
+![Elbow Method](outputs/plots/elbow_method.png)
+![Silhouette Score](outputs/plots/silhouette_score.png)
+
+*These plots show how the optimal number of clusters (`k=3`) was determined, balancing the inertia (Elbow Method) and Silhouette score to ensure meaningful groupings.
+
+---
+
+### ♨️ 3. Correlation heat map
+
+![correlation heatmap](outputs/plots/correlation_matrix.png)
+
+*Heatmap showing the correlation between players' technical skills, helping to decide which variables to keep or eliminate before clustering.
 
 ---
 
